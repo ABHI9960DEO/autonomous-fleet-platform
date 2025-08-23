@@ -43,8 +43,8 @@
   <!-- add child modules here as we create them -->
   <modules>
     <module>matching-service</module>
-    <!-- later:
     <module>simulator-service</module>
+    <!-- later:
     <module>trip-service</module>
     -->
   </modules>

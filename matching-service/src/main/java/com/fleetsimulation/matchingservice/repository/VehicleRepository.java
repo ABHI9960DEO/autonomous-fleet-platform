@@ -1,4 +1,7 @@
 package com.fleetsimulation.matchingservice.repository;
 
-public interface VehicleRepository {
+import com.fleetsimulation.matchingservice.domain.Vehicle;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface VehicleRepository extends JpaRepository<Vehicle, String> {
 }
